@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat&family=Playfair+Display&family=Raleway&family=Roboto&display=swap');
+
+body {
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1366 768' style='enable-background:new 0 0 1366 768;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23754C24;%7D .st1%7Bfill:%23006837;%7D%0A%3C/style%3E%3Cg%3E%3Crect x='1342.5' y='622.5' class='st0' width='42' height='145'/%3E%3Cpath class='st0' d='M1384,623v144h-41V623H1384 M1385,622h-43v146h43V622L1385,622z'/%3E%3C/g%3E%3Cg%3E%3Crect x='-17.5' y='622.5' class='st0' width='42' height='145'/%3E%3Cpath class='st0' d='M24,623v144h-41V623H24 M25,622h-43v146h43V622L25,622z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='-147.36,218.5 0.85,0.89 149.05,218.5 '/%3E%3Cpath class='st1' d='M0.85,1.78L74.6,110.06L148.11,218H0.85h-147.26l73.51-107.94L0.85,1.78 M0.85,0l-74.58,109.5L-148.3,219H0.85 H150L75.42,109.5L0.85,0L0.85,0z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='-197.83,362.5 1.45,69.89 200.73,362.5 '/%3E%3Cpath class='st1' d='M1.45,70.78l99.29,145.79L199.79,362H1.45h-198.34l99.05-145.44L1.45,70.78 M1.45,69L-98.67,216l-100.11,147 H1.45h200.23L101.56,216L1.45,69L1.45,69z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='-234.91,511.5 0.47,165.89 235.85,511.5 '/%3E%3Cpath class='st1' d='M0.47,166.78L117.8,339.06L234.9,511H0.47h-234.43l117.1-171.94L0.47,166.78 M0.47,165L-117.7,338.5 L-235.86,512H0.47h236.33L118.63,338.5L0.47,165L0.47,165z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='-262.01,651.5 1.29,264.89 264.6,651.5 '/%3E%3Cpath class='st1' d='M1.29,265.78l131.3,192.79L263.65,651H1.29h-262.36L-130,458.56L1.29,265.78 M1.29,264l-132.12,194 l-132.12,194H1.29h264.25L133.42,458L1.29,264L1.29,264z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='1217.95,218.5 1366.15,0.89 1514.36,218.5 '/%3E%3Cpath class='st1' d='M1366.15,1.78l73.75,108.29L1513.41,218h-147.26h-147.26l73.51-107.94L1366.15,1.78 M1366.15,0l-74.58,109.5 L1217,219h149.15h149.15l-74.58-109.5L1366.15,0L1366.15,0z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='1167.47,362.5 1366.75,69.89 1566.04,362.5 '/%3E%3Cpath class='st1' d='M1366.75,70.78l99.29,145.79L1565.09,362h-198.34h-198.34l99.05-145.44L1366.75,70.78 M1366.75,69l-100.11,147 l-100.11,147h200.23h200.23l-100.11-147L1366.75,69L1366.75,69z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='1130.39,511.5 1365.77,165.89 1601.15,511.5 '/%3E%3Cpath class='st1' d='M1365.77,166.78l117.34,172.29L1600.2,511h-234.43h-234.43l117.1-171.94L1365.77,166.78 M1365.77,165 l-118.16,173.5L1129.44,512h236.33h236.33l-118.16-173.5L1365.77,165L1365.77,165z'/%3E%3C/g%3E%3Cg%3E%3Cpolygon class='st1' points='1103.29,651.5 1366.6,264.89 1629.9,651.5 '/%3E%3Cpath class='st1' d='M1366.6,265.78l131.3,192.79L1628.95,651H1366.6h-262.36l131.06-192.44L1366.6,265.78 M1366.6,264l-132.12,194 l-132.12,194h264.25h264.25l-132.12-194L1366.6,264L1366.6,264z'/%3E%3C/g%3E%3C/svg%3E%0A");
+    width: 1440px;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.heading, .headingtext, .heading2, .heading3, .heading4 {
+    text-align: center;
+}
+
+.heading, .heading2, .heading3, .heading4 {
+    font-family: Domine, serif;
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.heading2, .heading3, .heading4 {
+    font-size: 25px;
+}
+
+.headingtext {
+    font-family: Raleway, Roboto, sans-serif;
+}
+
+.heading {
+    margin-bottom: 25px;
+}
+
+.headingtext {
+    margin-bottom: 25px;
+}
+
+#thehistory .circle {
+    margin-left: 660px;
+}
+
+.circle {
+    width: 125px;
+    height: 125px;
+    font-family: Raleway, Roboto, sans-serif;
+    border-radius: 50%;
+    font-size: 25px;
+    color:black;
+    line-height: 120px;
+    text-align: center;
+    background:lightblue;
+    display: block;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: 25px;
+    flex-shrink: 0;
+    display: inline-block;
+    }
+
+.hbtext {
+    visibility: hidden;
+    width: 300px;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding: 10px -50;
+    font-size: 15px;
+    border-radius: 6px;
+    position: absolute;
+    overflow: visible;
+    line-height: 45px;
+    font-family: Raleway, Roboto, sans-serif;
+    z-index: 1;
+}
+
+.circle:hover .hbtext {
+    visibility: visible;
+}
