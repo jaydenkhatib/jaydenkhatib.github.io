@@ -20,11 +20,12 @@ h1 {
 .link {
   font-family: Basteleur;
   font-size: 15px;
+  display: inline-block;
 }
 
 #navi {
-  display: inline-block;
-  margin: 10% 0% 10% 70%;
+  margin: 5% 0% 5% 70%;
+  text-align: center;
 }
 
 #work {
