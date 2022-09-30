@@ -22,10 +22,11 @@ h1 {
   font-size: 15px;
 }
 
-#work {
-  margin: 10% 10% 10% 70%;
+#navi {
+  display: inline-block;
+  margin: 10% 0% 10% 70%;
 }
 
-#about {
-  margin: 0% 10% 10% 80%;
+#work {
+  margin-right: 10%;
 }
