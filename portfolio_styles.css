@@ -33,7 +33,8 @@ h1 {
 }
 
 p {
-  font-family: 'Work Sans';
+  font-family: 'Dosis', sans-serif;
+  font-weight: light;
   font-size: 20px;
   margin: 0% 10% 0% 10%;
 }
