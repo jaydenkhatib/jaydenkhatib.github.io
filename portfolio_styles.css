@@ -15,3 +15,8 @@ h1 {
     font-weight: bold;
     color: blueviolet;
 }
+
+a {
+  font-family: Basteleur;
+  font-size: 10px;
+}
