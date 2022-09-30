@@ -14,7 +14,7 @@ h1 {
     font-family: Basteleur;
     font-weight: bold;
     color: blueviolet;
-    margin: 0% 25% 0% 25%;
+    margin: 0% 0% 0% 25%;
 }
 
 .link {
@@ -23,9 +23,9 @@ h1 {
 }
 
 #work {
-  margin: 10% 10% 10% 65%;
+  margin: 10% 10% 10% 70%;
 }
 
 #about {
-  margin: 10% 10% 10% 75%;
+  margin: 0% 10% 10% 80%;
 }
