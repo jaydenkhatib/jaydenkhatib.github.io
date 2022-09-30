@@ -21,3 +21,11 @@ h1 {
   font-family: Basteleur;
   font-size: 15px;
 }
+
+#work {
+  margin: 10% 10% 10% 65%;
+}
+
+#about {
+  margin: 10% 10% 10% 75%;
+}
