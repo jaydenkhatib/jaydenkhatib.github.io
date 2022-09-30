@@ -1,8 +1,17 @@
+@font-face {
+  font-family: Basteleur;
+  src: url('./fonts/Basteleur-Moonlight.ttf');
+}
+
+@font-face {
+  font-family: Basteleur;
+  font-weight: bold;
+  src: url('./fonts/Basteleur-Moonlight.ttf');
+}
+
 h1 {
     font-size: 40px;
+    font-family: Basteleur;
+    font-weight: bold;
     color: blueviolet;
-    @font-face {
-        font-family: 'Basteleur-Bold';
-        src: url('/fonts/Basteleur-Bold.ttf');
-      }
 }
