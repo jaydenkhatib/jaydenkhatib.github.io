@@ -52,6 +52,11 @@ h2 {
   font-size: 15px;
 }
 
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .works {
   flex: 1 0 21%;
 }
