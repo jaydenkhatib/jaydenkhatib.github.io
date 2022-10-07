@@ -55,6 +55,7 @@ h2 {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin: 0% 10% 0% 10%;
 }
 
 .works {
