@@ -9,7 +9,7 @@ var $grid = $('.portfolio').isotope({
     );
   
   // bind filter button click
-  $('#filters').on( 'click', 'a', function() {
+  $('.work_filters').on( 'click', 'button', function() {
     var filterValue = $( this ).attr('data-filter');
     // use filterFn if matches value
     filterValue = filterValue;
@@ -17,9 +17,9 @@ var $grid = $('.portfolio').isotope({
   });
   
   // change is-checked class on buttons
-  $('#filters').each( function( i, filters ) {
+  $('.work_filters').each( function( i, filters ) {
     var $filters = $( filters );
-    $filters.on( 'click', 'a', function() {
+    $filters.on( 'click', 'button', function() {
       $filters.find('.is-checked').removeClass('is-checked');
       $( this ).addClass('is-checked');
     });
