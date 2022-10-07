@@ -4,6 +4,7 @@ var $grid = $('.portfolio').isotope({
     layoutMode: 'fitRows',
     getSortData: {
       category: '[data-category]'
+      console.log(category);
     }
     }
     );
