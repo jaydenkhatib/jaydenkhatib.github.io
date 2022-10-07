@@ -51,3 +51,7 @@ h2 {
   font-weight: 'Bold 700';
   font-size: 15px;
 }
+
+.works {
+  flex: 1 0 21%;
+}
