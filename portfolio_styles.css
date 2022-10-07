@@ -59,7 +59,7 @@ h2 {
 
 .works {
   flex: 1 0 20%;
-  display: inline-block;
+  display: inline-table;
   margin: 5px;
   padding-right: 5px;
   align-items: center;
