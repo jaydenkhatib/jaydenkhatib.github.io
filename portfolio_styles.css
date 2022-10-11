@@ -71,3 +71,13 @@ h2 {
   float: left;
   width: auto;
 }
+
+h3 {
+  font-family: Basteleur;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#sbirt_info {
+  margin-right: 10%;
+}
