@@ -71,10 +71,6 @@ h2 {
 }
 
 .float-parent-element { 
-  width: 50%; 
-}
-
-.float-child-element { 
-  float: left; 
-  width: 50%; 
+  display: inline-block;
+  vertical-align: middle;
 }
