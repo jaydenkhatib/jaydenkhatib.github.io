@@ -69,3 +69,7 @@ h2 {
 #large_sbirt {
   margin-left: 10%;
 }
+
+#large_sbirt #sbirt_info {
+  display: inline-block;
+}
