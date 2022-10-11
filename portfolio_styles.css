@@ -68,9 +68,6 @@ h2 {
 
 #large_sbirt {
   margin-left: 10%;
-}
-
-.float-child-element { 
-  display: inline-block;
-  vertical-align: middle;
+  float: left;
+  width: auto;
 }
