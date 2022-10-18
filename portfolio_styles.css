@@ -82,6 +82,12 @@ h3 {
   margin: 0% 10% 0% 10%;
 }
 
-#page_info {
+.page_info {
   margin-left: 2.5%;
+}
+
+.page_info p {
+  font-family: 'EB Garamond';
+  font-weight: 'Bold 700';
+  font-size: 10px;
 }
