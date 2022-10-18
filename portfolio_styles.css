@@ -67,7 +67,6 @@ h2 {
 }
 
 #large_sbirt {
-  margin-left: 10%;
   float: left;
   width: auto;
 }
@@ -86,8 +85,12 @@ h3 {
   margin-left: 2.5%;
 }
 
-.page_info p {
+.page_hed {
   font-family: 'EB Garamond';
   font-weight: 'Bold 700';
   font-size: 15px;
+}
+
+.uses, .project_description, .read_it {
+  margin-top: 2.5%;
 }
