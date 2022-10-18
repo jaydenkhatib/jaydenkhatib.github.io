@@ -66,9 +66,10 @@ h2 {
   align-items: center;
 }
 
-#large_sbirt, #large_rural {
+.page_img {
   float: left;
   width: auto;
+  padding-right: 5%;
 }
 
 h3 {
