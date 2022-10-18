@@ -85,7 +85,7 @@ h3 {
   margin-left: 2.5%;
 }
 
-.page_hed {
+.uses, .read_it {
   font-family: 'EB Garamond';
   font-weight: 'Bold 700';
   font-size: 15px;
@@ -93,4 +93,10 @@ h3 {
 
 .uses, .project_description, .read_it {
   margin-top: 2.5%;
+}
+
+.project_description {
+  font-family: 'EB Garamond';
+  font-weight: 'Regular 400';
+  font-size: 15px;
 }
