@@ -1,6 +1,7 @@
 const blobCursor = (() => {  
   const CURSOR = document.querySelector('#cursorBlob');
   const LINKS = document.querySelector('h1');
+  console.log(LINKS);
   const setCursorPos = (e) => {
     const { pageX: posX, pageY: posY } = e;
     CURSOR.style.top = `${posY - (CURSOR.offsetHeight / 2)}px`;
