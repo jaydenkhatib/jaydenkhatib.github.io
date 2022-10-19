@@ -1,27 +1,16 @@
-// init Isotope
-var $grid = $('.portfolio').isotope({
-    itemSelector: '.works',
-    layoutMode: 'fitRows',
-    getSortData: {
-      category: '[data-category]'
-    }
-    console.log(category);
-    }
-    );
+const blobCursor = (() => {  
+  const CURSOR = document.querySelector('#cursorBlob');
+  const LINKS = document.querySelector('h1');
+  const setCursorPos = (e) => {
+    const { pageX: posX, pageY: posY } = e;
+    CURSOR.style.top = `${posY - (CURSOR.offsetHeight / 2)}px`;
+    CURSOR.style.left = `${posX - (CURSOR.offsetWidth / 2)}px`;
+  };
+  document.addEventListener('mousemove', setCursorPos);
   
-  // bind filter button click
-  $('.work_filters').on( 'click', 'button', function() {
-    var filterValue = $( this ).attr('data-filter');
-    // use filterFn if matches value
-    filterValue = filterValue;
-    $grid.isotope({ filter: filterValue });
-  });
+  const setCursorHover = () => CURSOR.style.transform = 'scale(2.5)';
+  const removeCursorHover = () => CURSOR.style.transform = '';
+  LINKS.forEach(link => link.addEventListener('mouseover', setCursorHover));
+  LINKS.forEach(link => link.addEventListener('mouseleave', removeCursorHover));
   
-  // change is-checked class on buttons
-  $('.work_filters').each( function( i, filters ) {
-    var $filters = $( filters );
-    $filters.on( 'click', 'button', function() {
-      $filters.find('.is-checked').removeClass('is-checked');
-      $( this ).addClass('is-checked');
-    });
-  });
+})();
