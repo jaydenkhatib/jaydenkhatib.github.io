@@ -10,11 +10,17 @@
 }
 
 h1 {
-    font-size: 40px;
     font-family: Basteleur;
     font-weight: bold;
     color: blueviolet;
     margin-left: 10%;
+    list-style: none;
+    cursor: pointer;
+    font-size: 10vw;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.25s ease;
+    &:hover {
+      transform: translateX(25px);
 }
 
 .link {
