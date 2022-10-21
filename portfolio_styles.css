@@ -13,7 +13,7 @@ h1 {
     font-size: 40px;
     font-family: Basteleur;
     font-weight: bold;
-    color: blueviolet;
+    color: #B727E6;
     margin-left: 10%;
 }
 
@@ -116,4 +116,25 @@ h3 {
 
 @keyframes implode {
   100% {transform: scale(0)}
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration-color: #B727E6;
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-color: #B727E6;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration-color: #B727E6;
+  text-decoration-line: none;
+  font-weight: bold;
 }
