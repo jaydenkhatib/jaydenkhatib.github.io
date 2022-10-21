@@ -31,7 +31,7 @@ $(document).ready(function(){
       var top = "top: " + getRandomInt(mousePos.y-range-sizeInt, mousePos.y+range) + "px;"; 
 
       var style = left+top+color+size;
-      $("<div class='ball' style='" + style + "'></div>").appendTo('<body>').one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){$(this).remove();}); 
+      $("<div class='ball' style='" + style + "'></div>").appendTo('body').one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){$(this).remove();}); 
     }
   }, 1);
 });
