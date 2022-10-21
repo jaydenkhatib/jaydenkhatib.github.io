@@ -15,6 +15,8 @@ $(document).ready(function(){
     mousePos.x = -1;
     mousePos.y = -1;
   });
+
+  console.log(mousePos);
   
   var draw = setInterval(function(){
     if(mousePos.x > 0 && mousePos.y > 0){
