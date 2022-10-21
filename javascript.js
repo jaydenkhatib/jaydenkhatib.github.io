@@ -23,7 +23,7 @@ $(document).ready(function(){
       
       var range = 15;
       
-      var color = "background: rgb("+getRandomInt(0,255)+","+getRandomInt(0,255)+","+getRandomInt(0,255)+");";
+      var color = "background: rgb("+getRandomInt(0,200)+","+getRandomInt(0,255)+","+getRandomInt(190,255)+");";
       
       var sizeInt = getRandomInt(10, 30);
       size = "height: " + sizeInt + "px; width: " + sizeInt + "px;";
