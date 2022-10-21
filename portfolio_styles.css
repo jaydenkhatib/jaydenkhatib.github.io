@@ -120,12 +120,12 @@ h3 {
 
 a:link {
   text-decoration: none;
-  color: black;
+  text-decoration-color: black;
 }
 
 a:visited {
   text-decoration: none;
-  text-decoration-color: #B727E6;
+  text-decoration-color: black;
   text-decoration-line: none;
 }
 
