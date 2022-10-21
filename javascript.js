@@ -34,4 +34,5 @@ $(document).ready(function(){
       $("<div class='ball' style='" + style + "'></div>").appendTo('body').one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function(){$(this).remove();}); 
     }
   }, 1);
+  draw();
 });
