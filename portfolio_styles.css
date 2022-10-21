@@ -50,6 +50,7 @@ h2 {
   font-family: 'EB Garamond';
   font-weight: 'Bold 700';
   font-size: 15px;
+  color: black;
 }
 
 #portfolio {
@@ -120,13 +121,10 @@ h3 {
 
 a:link {
   text-decoration: none;
-  text-decoration-color: black;
 }
 
 a:visited {
   text-decoration: none;
-  text-decoration-color: black;
-  text-decoration-line: none;
 }
 
 a:hover {
