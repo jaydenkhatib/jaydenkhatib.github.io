@@ -142,3 +142,7 @@ a:active {
   text-decoration-line: none;
   font-weight: bold;
 }
+
+#credit {
+  margin: 2% 10% 0% 10%;
+}
