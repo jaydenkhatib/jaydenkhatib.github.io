@@ -145,4 +145,9 @@ a:active {
 
 #credit {
   margin: 2% 10% 0% 10%;
+  font-size: 15px;
+}
+
+#bast_link:link {
+  color: #B727E6;
 }
