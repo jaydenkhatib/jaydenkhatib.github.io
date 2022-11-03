@@ -39,6 +39,8 @@ $(document).ready(function(){
   draw();
 });
 
+var Isotope = require('isotope-layout');
+
 // init Isotope
 var iso = new Isotope( '.grid', {
   itemSelector: '.element-item',
