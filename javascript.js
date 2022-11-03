@@ -40,6 +40,7 @@ $(document).ready(function(){
 });
 
 var Isotope = require('isotope-layout');
+console.log(Isotope);
 
 // init Isotope
 var iso = new Isotope( '.grid', {
