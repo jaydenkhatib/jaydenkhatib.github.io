@@ -2,11 +2,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="portfolio_styles.css">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
         <script type="text/javascript" src="javascript.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
         <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     </head>
     <body>
         <div id="navi">
@@ -30,41 +31,54 @@
         <span class="material-symbols-outlined">
             south
         </span>
-        <div id="portfolio">
-            <div class="works interactive charts javascript" id="Library">
+        <div class="button-group filters-button-group">
+            <button class="button is-checked" data-filter="*">show all</button>
+            <button class="button" data-filter=".html">HTML/CSS</button>
+            <button class="button" data-filter=".js">JavaScript</button>
+            <button class="button" data-filter=".figma">Figma</button>
+            <button class="button" data-filter=".qgis">QGIS</button>
+            <button class="button" data-filter=".map">Maps</button>
+            <button class="button" data-filter=".leaflet">Leaflet</button>
+            <button class="button" data-filter=".d3">D3.js</button>
+            <button class="button" data-filter=".node">Node.js</button>
+            <button class="button" data-filter=".scrolly">scrollytelling</button>
+            <button class="button" data-filter=".tables">tables</button>
+        </div>
+        <div id="portfolio" class="grid">
+            <div class="works tables figma js html node" data-category="metalloid" id="Library">
                 <a href="./library.html"><img src="./photos/library.png" width="250px" height="250px"></a>
                 <h2><a href="./library.html">What Seattleites read during the pandemic</a></h2>
             </div>
-            <div class="works tables interactive javascript html/css" id="SBIRT">
+            <div class="works tables js html node" id="SBIRT">
                 <a href="./sbirt.html"><img src="./photos/sbirt.png" width="250px" height="250px"></a>
                 <h2><a href="./sbirt.html">How King County’s efforts to help at-risk <br>
                     students created a record that could <br>
                     jeopardize their privacy</a></h2>
             </div>
-            <div class="works scrollytelling html/css" id="Blue">
+            <div class="works scrolly html" id="Blue">
                 <a href="./blue.html"><img src="./photos/blue.png" width="250px" height="250px"></a>
                 <h2><a href="./blue.html">The Blue Angels are back with a larger jet</a></h2>
             </div>
-            <div class="works html/css maps" id="Rural">
+            <div class="works html map" id="Rural">
                 <a href="./rural.html"><img src="./photos/rural.png" width="250px" height="250px"></a>
                 <h2><a href="./rural.html">Need for home care rising, but caregivers <br>
                     are hard to find in rural WA</a></h2>
             </div>
-            <div class="works qgis maps" id="Pinehurst">
+            <div class="works qgis map" id="Pinehurst">
                 <a href="./bioswale.html"><img src="./photos/bioswale.png" width="250px" height="250px"></a>
                 <h2><a href="./bioswale.html">Seattle program helps homeless people <br>
                     and neighborhoods at the same time</a></h2>
             </div>
-            <div class="works leaflet javascript interactive" id="U-Village">
+            <div class="works leaflet js map" id="U-Village">
                 <a href="./uvillage.html"><img src="./photos/u-village.png" width="250px" height="250px"></a>
                 <h2><a href="./uvillage.html">Housing boom around University Village: <br>
                     Will it be a real Seattle neighborhood?</a></h2>
             </div>
-            <div class="works d3.js interactive javascript" id="Airbnb">
+            <div class="works d3 js" id="Airbnb">
                 <a href="./airbnb.html"><img src="./photos/airbnb.png" width="250px" height="250px"></a>
                 <h2><a href="./airbnb.html">Extreme Inequality in Boston's Airbnb Markets</a></h2>
             </div>
-            <div class="works d3.js interactive javascript" id="Ranking">
+            <div class="works d3 js" id="Ranking">
                 <a href="./ranker.html"><img src="./photos/ranking.png" width="250px" height="250px"></a>
                 <h2><a href="./ranker.html">Massachusetts College Ranker</a></h2>
             </div>
