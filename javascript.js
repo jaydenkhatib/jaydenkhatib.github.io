@@ -39,8 +39,6 @@ $(document).ready(function(){
   draw();
 });
 
-// external js: isotope.pkgd.js
-
 // init Isotope
 var iso = new Isotope( '.grid', {
   itemSelector: '.element-item',
