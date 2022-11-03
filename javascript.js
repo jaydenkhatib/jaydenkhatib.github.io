@@ -1,4 +1,4 @@
-var $grid = $('.grid').isotope({
+var $grid = $('#portfolio').isotope({
   itemSelector: '.element-item'
 });
 console.log($grid);
