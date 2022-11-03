@@ -48,6 +48,7 @@ var $grid = $('.grid').isotope({
 // bind filter button click
 $('.filters-button-group').on( 'click', 'button', function() {
   var filterValue = $( this ).attr('data-filter');
+  console.log(filterValue);
   $grid.isotope({ filter: filterValue });
 });
 // change is-checked class on buttons
