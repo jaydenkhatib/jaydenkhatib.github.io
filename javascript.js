@@ -1,24 +1,3 @@
-var $grid = $('#portfolio').isotope({
-  itemSelector: '.element-item'
-});
-console.log($grid);
-
-// bind filter button click
-$('.filters-button-group').on('click', 'button', function() {
-  var filterValue = $(this).attr('data-filter');
-  $grid.isotope({filter: filterValue});
-  console.log(filterValue);
-});
-
-// change is-checked class on buttons
-$('.button-group').each(function(i, buttonGroup) {
-  var $buttonGroup = $(buttonGroup);
-  $buttonGroup.on( 'click', 'button', function() {
-    $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $(this).addClass('is-checked');
-  });
-});
-
 $(document).ready(function(){
   
   var mousePos = {};
