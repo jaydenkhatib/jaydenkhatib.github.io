@@ -1,6 +1,7 @@
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item';
 });
+console.log($grid);
 // bind filter button click
 $('.filters-button-group').on( 'click', 'button', function() {
   var filterValue = $( this ).attr('data-filter');
