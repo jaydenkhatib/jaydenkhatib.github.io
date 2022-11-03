@@ -48,18 +48,6 @@ var iso = new Isotope( '.grid', {
 });
 
 // filter functions
-var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function( itemElem ) {
-    var number = itemElem.querySelector('.number').textContent;
-    return parseInt( number, 10 ) > 50;
-  },
-  // show if name ends with -ium
-  ium: function( itemElem ) {
-    var name = itemElem.querySelector('.name').textContent;
-    return name.match( /ium$/ );
-  }
-};
 
 var filtersElem = document.querySelector('.filters-button-group');
 filtersElem.addEventListener( 'click', function( event ) {
@@ -69,8 +57,9 @@ filtersElem.addEventListener( 'click', function( event ) {
   }
   var filterValue = event.target.getAttribute('data-filter');
   // use matching filter function
-  filterValue = filterFns[ filterValue ] || filterValue;
+  filterValue = filterValue;
   iso.arrange({ filter: filterValue });
+  alert(filterValue);
 });
 
 // change is-checked class on buttons
