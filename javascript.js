@@ -1,5 +1,5 @@
 var $grid = $('.grid').isotope({
-  itemSelector: '.element-item';
+  itemSelector: '.element-item'
 });
 console.log($grid);
 // bind filter button click
