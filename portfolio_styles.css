@@ -151,3 +151,17 @@ a:active {
 #bast_link:link {
   color: #B727E6;
 }
+
+.figma_page {
+  display: flex;
+  flex-direction: row;
+}
+
+.child_1 {
+  width: 50%;
+}
+
+.child_2 {
+  width: 50%;
+  text-align: right;
+}
