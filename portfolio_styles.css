@@ -155,13 +155,18 @@ a:active {
 .figma_page {
   display: flex;
   flex-direction: row;
+  margin: 5% 15% 5% 15%;
 }
 
 .child_1 {
-  width: 50%;
+  width: 465px;
 }
 
 .child_2 {
   width: 50%;
-  text-align: right;
+  text-align: left;
+}
+
+.figma_h3 {
+  margin-left: 10%;
 }
