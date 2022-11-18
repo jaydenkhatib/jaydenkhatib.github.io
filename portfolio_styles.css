@@ -180,8 +180,10 @@ a:active {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: #f1f1f1;
   cursor: pointer;
+  background-color: #B727E6;
+  color: white;
+  border-radius: 12px;
 }
 
 .btn:hover {
