@@ -65,6 +65,7 @@ h2 {
   margin: 5px;
   padding-right: 5px;
   align-items: center;
+  display: none;
 }
 
 .page_img {
@@ -169,4 +170,25 @@ a:active {
 
 .figma_h3 {
   margin-left: 10%;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
 }
