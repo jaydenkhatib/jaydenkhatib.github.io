@@ -1,3 +1,7 @@
+window.onload = () => {
+  filterSelection('all')
+};
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
