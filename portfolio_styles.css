@@ -192,3 +192,7 @@ a:active {
   background-color: #666;
   color: white;
 }
+
+#btn_container {
+  margin: 2% 10% 2% 10%;
+}
