@@ -199,6 +199,7 @@ a:active {
   margin: 0% 10% 2% 10%;
 }
 
-#pelosi_timeline {
+img#pelosi_timeline {
   width: 465px;
+  padding-bottom: 10%;
 }
