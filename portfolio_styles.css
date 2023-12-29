@@ -224,3 +224,10 @@ img#microplastics_poster {
   padding-bottom: 10%;
   padding-top: 5%;
 }
+
+h4#sources {
+  font-family: 'EB Garamond';
+  font-weight: 'Bold 700';
+  font-size: 10px;
+  color: black;
+}
