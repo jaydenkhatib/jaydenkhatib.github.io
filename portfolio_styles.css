@@ -212,4 +212,5 @@ img#aum_cartogram {
 img#florida_map {
   width: 465px;
   padding-bottom: 10%;
+  float: left;
 }
