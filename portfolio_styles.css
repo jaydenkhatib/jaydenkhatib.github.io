@@ -220,7 +220,7 @@ img#florida_map {
 }
 
 img#microplastics_poster {
-  width: auto;
+  width: 100%;
   padding-bottom: 10%;
   padding-top: 5%;
 }
