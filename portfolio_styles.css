@@ -78,6 +78,12 @@ div#fl_div {
   padding-right: 5%;
 }
 
+#microplastic_poster {
+  float: left;
+  width: 90%;
+  padding-right: 5%;
+}
+
 h3 {
   font-family: Basteleur;
   font-weight: bold;
