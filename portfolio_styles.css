@@ -218,3 +218,9 @@ img#florida_map {
   padding-bottom: 10%;
   float: left;
 }
+
+img#microplastics_poster {
+  width: auto;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
