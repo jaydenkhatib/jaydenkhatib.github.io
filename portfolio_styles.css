@@ -214,3 +214,7 @@ img#florida_map {
   padding-bottom: 10%;
   float: left;
 }
+
+.fl_div {
+  clear: left;
+}
