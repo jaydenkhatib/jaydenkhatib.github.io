@@ -68,6 +68,10 @@ h2 {
   display: none;
 }
 
+div#fl_div {
+  clear: left;
+}
+
 .page_img {
   float: left;
   width: auto;
@@ -213,8 +217,4 @@ img#florida_map {
   width: 465px;
   padding-bottom: 10%;
   float: left;
-}
-
-#fl_div {
-  clear: left;
 }
