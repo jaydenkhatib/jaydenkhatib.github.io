@@ -225,6 +225,15 @@ img#microplastics_poster {
   padding-top: 5%;
 }
 
+img#mx_map {
+  width: 465px;
+  padding-bottom: 2.5%;
+}
+
+img#mx_chart {
+  width: 465px;
+}
+
 #sources {
   font-family: 'EB Garamond';
   font-weight: bold;
