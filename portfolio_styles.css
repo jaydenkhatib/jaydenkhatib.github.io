@@ -232,6 +232,8 @@ img#mx_map {
 
 img#mx_chart {
   width: 465px;
+  padding-left: 9%;
+  float: left;
 }
 
 #sources {
